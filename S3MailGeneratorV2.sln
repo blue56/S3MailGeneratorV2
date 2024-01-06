@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "S3MailGeneratorV2", "S3MailGeneratorV2", "{2E2A8D2E-440C-4D89-8D72-843621601620}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{73E6C08E-CF5F-4C5C-9972-36B10A304E31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S3MailGeneratorV2", "S3MailGeneratorV2\src\S3MailGeneratorV2\S3MailGeneratorV2.csproj", "{6C582DDD-B155-42E2-B571-7A88A0811AC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D0D2A0C1-85A7-42B4-ABFB-FD92DF40D190}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S3MailGeneratorV2.Tests", "S3MailGeneratorV2\test\S3MailGeneratorV2.Tests\S3MailGeneratorV2.Tests.csproj", "{1B7CF38A-3270-4C1A-96F1-9C3ABF28F295}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C582DDD-B155-42E2-B571-7A88A0811AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C582DDD-B155-42E2-B571-7A88A0811AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C582DDD-B155-42E2-B571-7A88A0811AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C582DDD-B155-42E2-B571-7A88A0811AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B7CF38A-3270-4C1A-96F1-9C3ABF28F295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7CF38A-3270-4C1A-96F1-9C3ABF28F295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B7CF38A-3270-4C1A-96F1-9C3ABF28F295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B7CF38A-3270-4C1A-96F1-9C3ABF28F295}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73E6C08E-CF5F-4C5C-9972-36B10A304E31} = {2E2A8D2E-440C-4D89-8D72-843621601620}
+		{6C582DDD-B155-42E2-B571-7A88A0811AC9} = {73E6C08E-CF5F-4C5C-9972-36B10A304E31}
+		{D0D2A0C1-85A7-42B4-ABFB-FD92DF40D190} = {2E2A8D2E-440C-4D89-8D72-843621601620}
+		{1B7CF38A-3270-4C1A-96F1-9C3ABF28F295} = {D0D2A0C1-85A7-42B4-ABFB-FD92DF40D190}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BFB1E37-7BC1-4E2D-BF7D-67A2C7D51D8B}
+	EndGlobalSection
+EndGlobal
