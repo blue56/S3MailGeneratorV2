@@ -28,7 +28,7 @@ public class Generator
     /// that needs to be generated.
     /// </summary>
     /// <param name="Source"></param>
-    public void Generate(string Bucketname, string Source)
+    public void Generate(string Bucketname, string Source, string ResultPrefix)
     {
         // Parse json file
         // Read JSON file content
@@ -93,7 +93,7 @@ public class Generator
                 };
 
                 // Write result file
-                string ResultFile = (string)mailElement["Result"];
+                string ResultFile = ResultPrefix + (string)mailElement["Result"];
 
                 MemoryStream ms = new MemoryStream();
                 message.WriteTo(ms);
