@@ -125,6 +125,12 @@ public class Generator
 
         TemplateContext templateContext = new TemplateContext(options);
 
+        templateContext.Options.Filters
+            .AddFilter("number-format", Filters.NumberFormat);
+
+        templateContext.Options.Filters
+            .AddFilter("number-to-month", Filters.NumberToMonth);
+
         // When a property of a JsonObjectvalue is accessed, try to look into its properties
         //        options.MemberAccessStrategy.Register<JsonObject, object?>((source, name) => source[name]);
 
